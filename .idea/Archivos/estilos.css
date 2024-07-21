@@ -1,0 +1,47 @@
+#tableroJuego{
+    width: 320px;
+    height : 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadrado {
+    width: 40px;
+    height : 40px;
+    position: relative;
+}
+
+.cuadrado svg {
+    width: 30px;
+    height : 30px;
+    margin: 5px;
+    position: relative;
+    z-index : -9;
+}
+
+path{
+    position: relative;
+    z-index : -10;
+}
+
+.pieza{
+    position: relative;
+    z-index : 9;
+}
+
+
+.colorBeix {
+    background-color:rgb(110,110,98);
+}
+
+.colorMarron {
+    background-color:rgb(169,43,43);
+}
+
+.colorNegro{
+    fill:rgb(28,28,28);
+}
+
+.colorBlanco{
+    fill:rgb(255,255,255);
+}
